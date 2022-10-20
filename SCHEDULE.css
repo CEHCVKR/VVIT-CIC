@@ -4,6 +4,15 @@
 	font-family: Copperplate Gothic Light; 
 }
 
+h1{
+	font-family: Copperplate Gothic Light; 
+	color: yellow;
+	background-color: black;
+	text-align: center;
+	font-size: 30px;
+
+}
+
 header{
 	font-family: Copperplate Gothic Light; 
 	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url();
@@ -15,11 +24,12 @@ header{
 ul{
 	float: right;
 	list-style-type: none;
-	margin-top: 25px;
+	margin-top: 0px;
 }
 
 ul li{
 	display: inline-block;
+
 }
 
 ul li a{
@@ -40,7 +50,7 @@ ul li.active a{
 	color: #40ff00;
 }
 
-}
+
 
 .main{
 	max-width: 1200px;
@@ -64,8 +74,8 @@ ul li.active a{
 
 .button{
 	position: absolute;
-	top: 62%;
-	left: 50%;
+	top: 12.7%;
+	left: 7%;
 	transform: translate(-50%,-50%);
 }
 
