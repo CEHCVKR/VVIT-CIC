@@ -1,0 +1,60 @@
+ua{
+	float: right;
+	list-style-type: none;
+	margin-top: -30px;
+}
+
+ua h2{
+	display: inline-block;
+}
+
+ua h2 a{
+	font-weight: bold;
+	font-family: Copperplate Gothic Light; 
+	text-decoration: none;
+	color: #000;
+	padding: 5px 20px;
+	border: 1px solid #transparent;
+	transition: 0.6s ease;
+}
+
+ua h2 a:hover{
+	background-color: #000;
+	color: #40ff00;
+}
+
+ua h2.active a{
+	background-color: #000;
+	color: #40ff00;
+}
+
+h3{
+	font-family: Copperplate Gothic Light; 
+	font-weight: bold;
+}
+h3.active a{
+	background-color: #000;
+	color: #00ffff;
+}
+
+.button{
+	position: absolute;
+	top: 4%;
+	left: 19.5%;
+	transform: translate(-50%,-50%);
+}
+
+.btn{
+	font-family: Copperplate Gothic Light; 
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #000;
+	text-decoration: none;
+	transition: 0.6s ease;
+
+}
+
+.btn:hover{
+	background-color: #000;
+	color: #00ffff;
+}
