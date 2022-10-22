@@ -1,5 +1,5 @@
 body{
-  background-image: url(VVIT_VIEW.jpeg);
+  background-color: #34568B;
   font-family: Helvetica, sans-serif;
   color: #222;
 }
@@ -105,17 +105,17 @@ body{
   }
 
     .pagination li a{
-      border: 1px solid #eaeaea;
-      border-radius: 5px;
-      padding: 3px 8px;
+      border: 2px solid #ffffff;
+      border-radius: 6px;
+      padding: 3px 9px;
       text-decoration: none;
-      color: #4ba6c3;
+      color: #ffffff;
     }
 
     .pagination li a.active,
     .pagination li a:hover{
-      background-color: #4ba6c3;
-      color: #fff;
+      background-color: #000;
+      color: #40ff00;
     }
 
 ul.initialhide .student-item.cf:nth-of-type(n+11){
