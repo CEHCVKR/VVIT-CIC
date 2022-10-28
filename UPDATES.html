@@ -137,9 +137,8 @@
          </main>
          <aside class="sidebar">
             <div class="sidebar-widget">
-               <h2 class="widget-title">DATE:</h2>
-               <p class="widget-body">28-October-2022</p>
-               <p class="widget-body">FRIDAY</p>
+               <h2 class="widget-title">DATE: </h2>
+               <p id="demo" class="widget-body"></p>
             </div>
             <div class="sidebar-widget">
                <h2 class="widget-title">For Any Imp Update Msg Me</h2>
@@ -154,8 +153,20 @@
       </div>
       <footer>
          <p><strong>VVIT-CIC</strong></p>
-         <p>Copyright &copy; 2022</p>
-         <p>Made By <i class="fab fa-hackerrank style='font-size:48px;color:red'"></i>Karhik</p>
+         <p style="text-align: center"> Copyright &copy; 2022 - <script>document.write(new Date().getFullYear())</script> Made By <i class="fab fa-hackerrank style='font-size:48px;color:red'"></i>Karthik</p>
       </footer>
+
+
+
+<script language="javascript"> 
+    var t = new Date(); 
+    document.getElementById("demo").innerHTML = (t.toDateString()); 
+</script>
+
+<script language="javascript"> 
+    var t = new Date(); 
+    document.getElementById("de").innerHTML = (" "+t.getHours()+":"+t.getMinutes()); 
+</script>
+
    </body>
 </html>
