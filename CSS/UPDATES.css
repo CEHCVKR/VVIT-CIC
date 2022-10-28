@@ -185,11 +185,11 @@ nav a:focus {
 }
 
 .current-page {
-   border-bottom: 1px solid #75a3a3;
+   border-bottom: 1px solid #707070;
 }
 
 .current-page:hover {
-   color: #75a3a3;
+   color: #707070;
 }
 
 .article-featured {
