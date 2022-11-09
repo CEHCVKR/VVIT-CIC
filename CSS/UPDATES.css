@@ -57,11 +57,16 @@ ul li a{
 ul li a:hover{
    background-color: #000;
    color: #40ff00;
+   text-shadow: 0 0 5px #fff,
+   0 0 10px #fff, 0 0 15px #40ff00,
+   0 0 20px #40ff00;
 }
 
 ul li.active a{
    background-color: #000;
    color: #40ff00;
+   text-shadow: 0 0 5px #fff,
+   0 0 10px #fff, 0 0 15px #40ff00;
 }
 
 .button{
