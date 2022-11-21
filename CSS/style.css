@@ -1,3 +1,11 @@
+body{
+	background-image: url("VVIT_VIEW.jpeg");
+	background-repeat: no-repeat, no-repeat;
+    background-size: cover, 20%;
+    background-position: center center ,left top;
+    height: 100%;
+}
+
 {
 	margin: 0;
 	padding: 0;
@@ -25,6 +33,9 @@ ul li{
 ul li a{
 	text-decoration: none;
 	color: #fff;
+	text-shadow: 0 0 5px #fff,
+	0 0 10px #fff, 0 0 15px #0073e6,
+	0 0 20px #0073e6, 0 0 25px #0073e6;
 	padding: 5px 20px;
 	border: 1px solid #transparent;
 	transition: 0.6s ease;
@@ -33,14 +44,19 @@ ul li a{
 ul li a:hover{
 	background-color: #000;
 	color: #40ff00;
+	text-shadow: 0 0 5px #fff,
+	0 0 10px #fff, 0 0 15px #40ff00,
+	0 0 20px #40ff00, 0 0 25px #40ff00;
 }
 
 ul li.active a{
 	background-color: #000;
 	color: #40ff00;
+	text-shadow: 0 0 5px #fff,
+	0 0 10px #fff, 0 0 15px #40ff00,
+	0 0 20px #40ff00, 0 0 25px #40ff00;
 }
 
-}
 
 .main{
 	max-width: 1200px;
@@ -58,6 +74,10 @@ ul li.active a{
 .title h1{
 	font-family: Copperplate Gothic Light; 
 	color: #fff;
+	text-shadow: 0 0 5px #fff,
+	0 0 10px #fff, 0 0 15px #0073e6,
+	0 0 20px #0073e6, 0 0 25px #0073e6,
+	0 0 30px #0073e6, 0 0 35px #0073e6;
 	font-size: 70px;
 
 }
@@ -76,12 +96,18 @@ ul li.active a{
 	color: #00ffff;
 	text-decoration: none;
 	transition: 0.6s ease;
-
 }
 
 .btn:hover{
 	background-color: #000;
 	color: #00ffff;
+	text-shadow: 0 0 5px #fff,
+	0 0 10px #fff, 0 0 15px #00ffff,
+	0 0 20px #00ffff, 0 0 25px #00ffff,
+	0 0 30px #00ffff, 0 0 35px #00ffff;
 }
 
 
+@media (orientation: portrait) {
+  
+}
