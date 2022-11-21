@@ -1,8 +1,7 @@
-}
 .wrapper{
 position: absolute;
-top: 15%;
-left: 30%;
+top: 10%;
+left: 5%;
 transform: translate(-50%,-50%);
 }
 .cube-wrap {
@@ -12,7 +11,7 @@ perspective: 2000px;
 perspective-origin: 50% -500px;
 }
 .single-box {
-background-image: url(VVIT_LOGO1.jpg);
+background-image: url(VVIT_LOGO.1.jpg);
 background-size: cover;
 display: block;
 position: absolute;
@@ -28,27 +27,27 @@ transform-style: preserve-3d;
 animation: rotate 10s infinite linear;
 }
 .side-front { 
-background-image: url(VVIT_LOGO1.jpg);
+background-image: url(VVIT_LOGO.1.jpg);
 transform: translateZ(36px);
 }
 .side-back { 
-background-image: url(VVIT_LOGO1.jpg);
+background-image: url(VVIT_LOGO.1.jpg);
 transform: rotateY(180deg) translateZ(36px);
 }
 .side-top {
-background-image: url(VVIT_LOGO1.jpg);
+background-image: url(VVIT_LOGO.1.jpg);
 transform: rotateX(90deg) translateZ(36px);
 }
 .side-bottom { 
 transform: rotateX(-90deg) translateZ(36px); 
-background-image: url(VVIT_LOGO1.jpg);
+background-image: url(VVIT_LOGO.1.jpg);
 }
 .side-left { 
-background-image: url(VVIT_LOGO1.jpg);
+background-image: url(VVIT_LOGO.1.jpg);
 transform: rotateY(-90deg) translateZ(36px); 
 }
 .side-right {
-background-image: url(VVIT_LOGO1.jpg);
+background-image: url(VVIT_LOGO.1.jpg);
 transform: rotateY(90deg) translateZ(36px); 
 }
  
