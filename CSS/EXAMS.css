@@ -85,28 +85,106 @@ ul li.active a{
 }
 
 .button{
-	position: absolute;
-	top: 8.5%;
-	left: 8.5%;
-	transform: translate(-50%,-50%);
+    position: absolute;
+    top: 8.5%;
+    left: 8.5%;
+    transform: translate(-50%,-50%);
 }
 
+.buttona{
+    position: absolute;
+    top: 40%;
+    left: 19%;
+    transform: translate(-50%,-50%);
+}
+
+.buttonb{
+    position: absolute;
+    top: 40%;
+    left: 39%;
+    transform: translate(-50%,-50%);
+}
+
+.buttonc{
+    position: absolute;
+    top: 40%;
+    left: 59%;
+    transform: translate(-50%,-50%);
+}
+
+.buttond{
+    position: absolute;
+    top: 40%;
+    left: 79%;
+    transform: translate(-50%,-50%);
+}
+
+.buttone{
+    position: absolute;
+    top: 60%;
+    left: 19%;
+    transform: translate(-50%,-50%);
+}
+
+.buttonf{
+    position: absolute;
+    top: 60%;
+    left: 39%;
+    transform: translate(-50%,-50%);
+}
+
+.buttong{
+    position: absolute;
+    top: 60%;
+    left: 59%;
+    transform: translate(-50%,-50%);
+}
+
+.buttonh{
+    position: absolute;
+    top: 60%;
+    left: 79%;
+    transform: translate(-50%,-50%);
+}
+
+
 .btn{
-	font-family: Copperplate Gothic Light; 
-	border: 1px solid #fff;
-	padding: 10px 30px;
-	color: #00ffff;
-	text-decoration: none;
-	transition: 0.6s ease;
+    font-family: Copperplate Gothic Light; 
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #00ffff;
+    text-decoration: none;
+    transition: 0.6s ease;
 }
 
 .btn:hover{
-	background-color: #000;
-	color: #00ffff;
-    text-shadow: 0 0 5px #fff,
-    0 0 10px #fff, 0 0 15px #00ffff,
+    background-color: #000;
+    color: #00ffff;
+    text-shadow: 0 0 5px #00ffff,
+    0 0 10px #00ffff, 0 0 15px #00ffff,
     0 0 20px #00ffff, 0 0 25px #00ffff,
     0 0 30px #00ffff, 0 0 35px #00ffff;
+}
+
+.btn1{
+    font-family: Copperplate Gothic Light; 
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    border: 2px solid #fff;
+    padding: 20px 30px;
+    color: #40ff00;
+    border-radius: 300px;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn1:hover{
+    background-color: #000;
+    color: #00ffff;
+    border-color: #40ff00;
+    text-shadow: 0 0 5px #00ffff,
+    0 0 10px #00ffff, 0 0 15px #00ffff;
 }
 
 
