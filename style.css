@@ -1,9 +1,9 @@
 body{
 	background-image: url("VVIT_VIEW.jpeg");
 	background-repeat: no-repeat, no-repeat;
-    background-size: cover, 20%;
-    background-position: center center ,left top;
-    height: 100%;
+        background-size: cover, 20%;
+        background-position: center center ,left top;
+        height: 100%;
 }
 
 {
@@ -108,9 +108,4 @@ ul li.active a{
 	0 0 10px #fff, 0 0 15px #00ffff,
 	0 0 20px #00ffff, 0 0 25px #00ffff,
 	0 0 30px #00ffff, 0 0 35px #00ffff;
-}
-
-
-@media (orientation: portrait) {
-  
 }
