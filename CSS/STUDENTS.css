@@ -9,6 +9,7 @@ ua h2{
 }
 
 ua h2 a{
+	border-radius: 300px;
 	font-weight: bold;
 	font-family: Copperplate Gothic Light; 
 	text-decoration: none;
@@ -54,8 +55,9 @@ h3.active a{
 }
 
 .btn{
+	border-radius: 300px;
 	font-family: Copperplate Gothic Light; 
-	border: 1px solid red;
+	border: 2px solid red;
 	padding: 10px 30px;
 	color: #000;
 	text-decoration: none;
@@ -63,6 +65,7 @@ h3.active a{
 }
 
 .btn:hover{
+	border-color: #40ff00;
 	background-color: #000;
 	color: #00ffff;
 }
